@@ -1,0 +1,15 @@
+pdf-page {
+    display: block;
+    position: relative;
+
+}
+
+.textLayer ::selection {
+    background: rgba(255, 230, 0);
+    color: black
+}
+
+.textLayer ::-moz-selection {
+    background: rgba(255, 230, 0);
+    color: black
+}

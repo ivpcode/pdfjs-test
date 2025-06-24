@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable=no">
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.3.31/pdf.min.mjs"></script>-->
+
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.5.141/pdf.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.5.141/pdf_viewer.min.css" /-->
+
+
+    <script type="module" src="/src/main.js"></script>
+
+</head>
+
+<body>
+
+    <div id="pdf-main-container">
+        <div id="pdf-loader">Loading document ...</div>
+        <div id="pdf-meta">
+            <div id="pdf-buttons">
+                <button id="pdf-prev">Previous</button>
+                <button id="pdf-next">Next</button>
+            </div>
+            <div id="page-count-container">
+                Page
+                <div id="pdf-current-page"></div>
+                of
+                <div id="pdf-total-pages"></div>
+            </div>
+        </div>
+
+        <div id="pdf-contents">
+            <canvas id="pdf-canvas"></canvas>
+            <div id="text-layer" class="textLayer"></div>
+        </div>
+
+
+        <div id="page-loader">Loading page ...</div>
+    </div>
+
+</body>
+
+</html>
