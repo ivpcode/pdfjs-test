@@ -5,11 +5,12 @@ pdf-page {
 }
 
 .textLayer ::selection {
-    background: rgba(255, 230, 0);
-    color: black
+    background: rgba(255, 230, 0,0.3);
+
+    /*color: black*/
 }
 
 .textLayer ::-moz-selection {
-    background: rgba(255, 230, 0);
-    color: black
+    background: rgba(255, 230, 0,0.3);
+    /*color: black*/
 }
